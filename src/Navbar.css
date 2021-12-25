@@ -1,0 +1,13 @@
+.Navbar {
+  background-color: lavender;
+  padding: 1rem;
+}
+
+.Navbar a {
+    margin: 1rem;
+    color: black;
+}
+
+.Navbar a.active {
+    color: red;
+}

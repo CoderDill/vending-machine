@@ -1,9 +1,10 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import "./Navbar.css";
 
-function NavBar() {
+function Navbar() {
   return (
-    <nav>
+    <nav className="Navbar">
       <NavLink exact to="/chips">
         Chips
       </NavLink>
@@ -17,4 +18,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default Navbar;

@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
-import NavBar from "./NavBar";
+import Navbar from "./Navbar";
 import Drink from "./Drink";
 import Chips from "./Chips";
 import Candy from "./Candy";
@@ -11,7 +11,7 @@ export function VendingMachine(props) {
       <h1>Vending Machine</h1>
 
       <BrowserRouter>
-        <NavBar />
+        <Navbar />
 
         <Route exact path="/chips">
           <Chips />
